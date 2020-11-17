@@ -1,0 +1,466 @@
+fileFormatVersion: 2
+guid: 17d2743554bd78b4599c2fa8df32ba4c
+timeCreated: 1491250604
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: arm.L
+    100002: arm.R
+    100004: babyWhale
+    100006: back
+    100008: base
+    100010: elbow.L
+    100012: elbow.R
+    100014: eye.L
+    100016: eye.R
+    100018: eyelid.L
+    100020: eyelid.R
+    100022: finger.L
+    100024: finger.R
+    100026: //RootNode
+    100028: head
+    100030: hips
+    100032: left_eyelid
+    100034: M_babyHumpbackWhale
+    100036: m_babyWhale_left_eye
+    100038: m_babyWhale_right_eye
+    100040: palm.L
+    100042: palm.R
+    100044: right_eyel
+    100046: tail_base
+    100048: tail_end
+    100050: tail_fin
+    400000: arm.L
+    400002: arm.R
+    400004: babyWhale
+    400006: back
+    400008: base
+    400010: elbow.L
+    400012: elbow.R
+    400014: eye.L
+    400016: eye.R
+    400018: eyelid.L
+    400020: eyelid.R
+    400022: finger.L
+    400024: finger.R
+    400026: //RootNode
+    400028: head
+    400030: hips
+    400032: left_eyelid
+    400034: M_babyHumpbackWhale
+    400036: m_babyWhale_left_eye
+    400038: m_babyWhale_right_eye
+    400040: palm.L
+    400042: palm.R
+    400044: right_eyel
+    400046: tail_base
+    400048: tail_end
+    400050: tail_fin
+    2300000: left_eyelid
+    2300002: m_babyWhale_left_eye
+    2300004: m_babyWhale_right_eye
+    2300006: right_eyel
+    3300000: left_eyelid
+    3300002: m_babyWhale_left_eye
+    3300004: m_babyWhale_right_eye
+    3300006: right_eyel
+    4300000: m_babyWhale_right_eye
+    4300002: left_eyelid
+    4300004: m_babyWhale_left_eye
+    4300006: right_eyel
+    4300008: M_babyHumpbackWhale
+    7400000: babyWhale|babyWhale_curious
+    7400002: babyWhale|babyWhale_enter
+    7400004: babyWhale|babyWhale_escape
+    7400006: babyWhale|babyWhale_swim
+    9500000: //RootNode
+    13700000: M_babyHumpbackWhale
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: babyWhale|babyWhale_curious
+      takeName: babyWhale|babyWhale_curious
+      firstFrame: 0
+      lastFrame: 245
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: babyWhale
+        weight: 1
+      - path: babyWhale/base
+        weight: 1
+      - path: babyWhale/base/arm.L
+        weight: 1
+      - path: babyWhale/base/arm.L/elbow.L
+        weight: 1
+      - path: babyWhale/base/arm.L/elbow.L/palm.L
+        weight: 1
+      - path: babyWhale/base/arm.L/elbow.L/palm.L/finger.L
+        weight: 1
+      - path: babyWhale/base/arm.R
+        weight: 1
+      - path: babyWhale/base/arm.R/elbow.R
+        weight: 1
+      - path: babyWhale/base/arm.R/elbow.R/palm.R
+        weight: 1
+      - path: babyWhale/base/arm.R/elbow.R/palm.R/finger.R
+        weight: 1
+      - path: babyWhale/base/back
+        weight: 1
+      - path: babyWhale/base/back/hips
+        weight: 1
+      - path: babyWhale/base/back/hips/tail_base
+        weight: 1
+      - path: babyWhale/base/back/hips/tail_base/tail_end
+        weight: 1
+      - path: babyWhale/base/back/hips/tail_base/tail_end/tail_fin
+        weight: 1
+      - path: babyWhale/base/head
+        weight: 1
+      - path: babyWhale/base/head/eye.L
+        weight: 1
+      - path: babyWhale/base/head/eye.L/m_babyWhale_right_eye
+        weight: 1
+      - path: babyWhale/base/head/eye.R
+        weight: 1
+      - path: babyWhale/base/head/eye.R/m_babyWhale_left_eye
+        weight: 1
+      - path: babyWhale/base/head/eyelid.L
+        weight: 1
+      - path: babyWhale/base/head/eyelid.L/left_eyelid
+        weight: 1
+      - path: babyWhale/base/head/eyelid.R
+        weight: 1
+      - path: babyWhale/base/head/eyelid.R/right_eyel
+        weight: 1
+      - path: M_babyHumpbackWhale
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: babyWhale|babyWhale_enter
+      takeName: babyWhale|babyWhale_enter
+      firstFrame: 0
+      lastFrame: 119
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: babyWhale
+        weight: 1
+      - path: babyWhale/base
+        weight: 1
+      - path: babyWhale/base/arm.L
+        weight: 1
+      - path: babyWhale/base/arm.L/elbow.L
+        weight: 1
+      - path: babyWhale/base/arm.L/elbow.L/palm.L
+        weight: 1
+      - path: babyWhale/base/arm.L/elbow.L/palm.L/finger.L
+        weight: 1
+      - path: babyWhale/base/arm.R
+        weight: 1
+      - path: babyWhale/base/arm.R/elbow.R
+        weight: 1
+      - path: babyWhale/base/arm.R/elbow.R/palm.R
+        weight: 1
+      - path: babyWhale/base/arm.R/elbow.R/palm.R/finger.R
+        weight: 1
+      - path: babyWhale/base/back
+        weight: 1
+      - path: babyWhale/base/back/hips
+        weight: 1
+      - path: babyWhale/base/back/hips/tail_base
+        weight: 1
+      - path: babyWhale/base/back/hips/tail_base/tail_end
+        weight: 1
+      - path: babyWhale/base/back/hips/tail_base/tail_end/tail_fin
+        weight: 1
+      - path: babyWhale/base/head
+        weight: 1
+      - path: babyWhale/base/head/eye.L
+        weight: 1
+      - path: babyWhale/base/head/eye.L/m_babyWhale_right_eye
+        weight: 1
+      - path: babyWhale/base/head/eye.R
+        weight: 1
+      - path: babyWhale/base/head/eye.R/m_babyWhale_left_eye
+        weight: 1
+      - path: babyWhale/base/head/eyelid.L
+        weight: 1
+      - path: babyWhale/base/head/eyelid.L/left_eyelid
+        weight: 1
+      - path: babyWhale/base/head/eyelid.R
+        weight: 1
+      - path: babyWhale/base/head/eyelid.R/right_eyel
+        weight: 1
+      - path: M_babyHumpbackWhale
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: babyWhale|babyWhale_escape
+      takeName: babyWhale|babyWhale_escape
+      firstFrame: 0
+      lastFrame: 79
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: babyWhale
+        weight: 1
+      - path: babyWhale/base
+        weight: 1
+      - path: babyWhale/base/arm.L
+        weight: 1
+      - path: babyWhale/base/arm.L/elbow.L
+        weight: 1
+      - path: babyWhale/base/arm.L/elbow.L/palm.L
+        weight: 1
+      - path: babyWhale/base/arm.L/elbow.L/palm.L/finger.L
+        weight: 1
+      - path: babyWhale/base/arm.R
+        weight: 1
+      - path: babyWhale/base/arm.R/elbow.R
+        weight: 1
+      - path: babyWhale/base/arm.R/elbow.R/palm.R
+        weight: 1
+      - path: babyWhale/base/arm.R/elbow.R/palm.R/finger.R
+        weight: 1
+      - path: babyWhale/base/back
+        weight: 1
+      - path: babyWhale/base/back/hips
+        weight: 1
+      - path: babyWhale/base/back/hips/tail_base
+        weight: 1
+      - path: babyWhale/base/back/hips/tail_base/tail_end
+        weight: 1
+      - path: babyWhale/base/back/hips/tail_base/tail_end/tail_fin
+        weight: 1
+      - path: babyWhale/base/head
+        weight: 1
+      - path: babyWhale/base/head/eye.L
+        weight: 1
+      - path: babyWhale/base/head/eye.L/m_babyWhale_right_eye
+        weight: 1
+      - path: babyWhale/base/head/eye.R
+        weight: 1
+      - path: babyWhale/base/head/eye.R/m_babyWhale_left_eye
+        weight: 1
+      - path: babyWhale/base/head/eyelid.L
+        weight: 1
+      - path: babyWhale/base/head/eyelid.L/left_eyelid
+        weight: 1
+      - path: babyWhale/base/head/eyelid.R
+        weight: 1
+      - path: babyWhale/base/head/eyelid.R/right_eyel
+        weight: 1
+      - path: M_babyHumpbackWhale
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: babyWhale|babyWhale_swim
+      takeName: babyWhale|babyWhale_swim
+      firstFrame: 0
+      lastFrame: 249
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: babyWhale
+        weight: 1
+      - path: babyWhale/base
+        weight: 1
+      - path: babyWhale/base/arm.L
+        weight: 1
+      - path: babyWhale/base/arm.L/elbow.L
+        weight: 1
+      - path: babyWhale/base/arm.L/elbow.L/palm.L
+        weight: 1
+      - path: babyWhale/base/arm.L/elbow.L/palm.L/finger.L
+        weight: 1
+      - path: babyWhale/base/arm.R
+        weight: 1
+      - path: babyWhale/base/arm.R/elbow.R
+        weight: 1
+      - path: babyWhale/base/arm.R/elbow.R/palm.R
+        weight: 1
+      - path: babyWhale/base/arm.R/elbow.R/palm.R/finger.R
+        weight: 1
+      - path: babyWhale/base/back
+        weight: 1
+      - path: babyWhale/base/back/hips
+        weight: 1
+      - path: babyWhale/base/back/hips/tail_base
+        weight: 1
+      - path: babyWhale/base/back/hips/tail_base/tail_end
+        weight: 1
+      - path: babyWhale/base/back/hips/tail_base/tail_end/tail_fin
+        weight: 1
+      - path: babyWhale/base/head
+        weight: 1
+      - path: babyWhale/base/head/eye.L
+        weight: 1
+      - path: babyWhale/base/head/eye.L/m_babyWhale_right_eye
+        weight: 1
+      - path: babyWhale/base/head/eye.R
+        weight: 1
+      - path: babyWhale/base/head/eye.R/m_babyWhale_left_eye
+        weight: 1
+      - path: babyWhale/base/head/eyelid.L
+        weight: 1
+      - path: babyWhale/base/head/eyelid.L/left_eyelid
+        weight: 1
+      - path: babyWhale/base/head/eyelid.R
+        weight: 1
+      - path: babyWhale/base/head/eyelid.R/right_eyel
+        weight: 1
+      - path: M_babyHumpbackWhale
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

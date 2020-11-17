@@ -1,0 +1,620 @@
+fileFormatVersion: 2
+guid: 93dc63e8e83ea894fbcfb002c11c6409
+timeCreated: 1491250615
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: base
+    100002: eyelid.L
+    100004: eyelid.R
+    100006: //RootNode
+    100008: head
+    100010: left_eyelid
+    100012: M_octopus
+    100014: octopus
+    100016: right_eyelid
+    100018: tentacle_A_1.L
+    100020: tentacle_A_1.R
+    100022: tentacle_A_2.L
+    100024: tentacle_A_2.R
+    100026: tentacle_A_3.L
+    100028: tentacle_A_3.R
+    100030: tentacle_A_4.L
+    100032: tentacle_A_4.R
+    100034: tentacle_B_1.L
+    100036: tentacle_B_1.R
+    100038: tentacle_B_2.L
+    100040: tentacle_B_2.R
+    100042: tentacle_B_3.L
+    100044: tentacle_B_3.R
+    100046: tentacle_B_4.L
+    100048: tentacle_B_4.R
+    100050: tentacle_C_1.L
+    100052: tentacle_C_1.R
+    100054: tentacle_C_2.L
+    100056: tentacle_C_2.R
+    100058: tentacle_C_3.L
+    100060: tentacle_C_3.R
+    100062: tentacle_C_4.L
+    100064: tentacle_C_4.R
+    100066: tentacle_D_1.L
+    100068: tentacle_D_1.R
+    100070: tentacle_D_2.L
+    100072: tentacle_D_2.R
+    100074: tentacle_D_3.L
+    100076: tentacle_D_3.R
+    100078: tentacle_D_4.L
+    100080: tentacle_D_4.R
+    100082: top
+    400000: base
+    400002: eyelid.L
+    400004: eyelid.R
+    400006: //RootNode
+    400008: head
+    400010: left_eyelid
+    400012: M_octopus
+    400014: octopus
+    400016: right_eyelid
+    400018: tentacle_A_1.L
+    400020: tentacle_A_1.R
+    400022: tentacle_A_2.L
+    400024: tentacle_A_2.R
+    400026: tentacle_A_3.L
+    400028: tentacle_A_3.R
+    400030: tentacle_A_4.L
+    400032: tentacle_A_4.R
+    400034: tentacle_B_1.L
+    400036: tentacle_B_1.R
+    400038: tentacle_B_2.L
+    400040: tentacle_B_2.R
+    400042: tentacle_B_3.L
+    400044: tentacle_B_3.R
+    400046: tentacle_B_4.L
+    400048: tentacle_B_4.R
+    400050: tentacle_C_1.L
+    400052: tentacle_C_1.R
+    400054: tentacle_C_2.L
+    400056: tentacle_C_2.R
+    400058: tentacle_C_3.L
+    400060: tentacle_C_3.R
+    400062: tentacle_C_4.L
+    400064: tentacle_C_4.R
+    400066: tentacle_D_1.L
+    400068: tentacle_D_1.R
+    400070: tentacle_D_2.L
+    400072: tentacle_D_2.R
+    400074: tentacle_D_3.L
+    400076: tentacle_D_3.R
+    400078: tentacle_D_4.L
+    400080: tentacle_D_4.R
+    400082: top
+    2300000: left_eyelid
+    2300002: right_eyelid
+    3300000: left_eyelid
+    3300002: right_eyelid
+    4300000: right_eyelid
+    4300002: left_eyelid
+    4300004: M_octopus
+    7400000: octopus|octopus_curious
+    7400002: octopus|octopus_enter
+    7400004: octopus|octopus_escape
+    7400006: octopus|octopus_swim
+    9500000: //RootNode
+    13700000: M_octopus
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: octopus|octopus_curious
+      takeName: octopus|octopus_curious
+      firstFrame: 0
+      lastFrame: 49
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: M_octopus
+        weight: 1
+      - path: octopus
+        weight: 1
+      - path: octopus/base
+        weight: 1
+      - path: octopus/base/head
+        weight: 1
+      - path: octopus/base/head/eyelid.L
+        weight: 1
+      - path: octopus/base/head/eyelid.L/left_eyelid
+        weight: 1
+      - path: octopus/base/head/eyelid.R
+        weight: 1
+      - path: octopus/base/head/eyelid.R/right_eyelid
+        weight: 1
+      - path: octopus/base/head/top
+        weight: 1
+      - path: octopus/base/tentacle_A_1.L
+        weight: 1
+      - path: octopus/base/tentacle_A_1.L/tentacle_A_2.L
+        weight: 1
+      - path: octopus/base/tentacle_A_1.L/tentacle_A_2.L/tentacle_A_3.L
+        weight: 1
+      - path: octopus/base/tentacle_A_1.L/tentacle_A_2.L/tentacle_A_3.L/tentacle_A_4.L
+        weight: 1
+      - path: octopus/base/tentacle_A_1.R
+        weight: 1
+      - path: octopus/base/tentacle_A_1.R/tentacle_A_2.R
+        weight: 1
+      - path: octopus/base/tentacle_A_1.R/tentacle_A_2.R/tentacle_A_3.R
+        weight: 1
+      - path: octopus/base/tentacle_A_1.R/tentacle_A_2.R/tentacle_A_3.R/tentacle_A_4.R
+        weight: 1
+      - path: octopus/base/tentacle_B_1.L
+        weight: 1
+      - path: octopus/base/tentacle_B_1.L/tentacle_B_2.L
+        weight: 1
+      - path: octopus/base/tentacle_B_1.L/tentacle_B_2.L/tentacle_B_3.L
+        weight: 1
+      - path: octopus/base/tentacle_B_1.L/tentacle_B_2.L/tentacle_B_3.L/tentacle_B_4.L
+        weight: 1
+      - path: octopus/base/tentacle_B_1.R
+        weight: 1
+      - path: octopus/base/tentacle_B_1.R/tentacle_B_2.R
+        weight: 1
+      - path: octopus/base/tentacle_B_1.R/tentacle_B_2.R/tentacle_B_3.R
+        weight: 1
+      - path: octopus/base/tentacle_B_1.R/tentacle_B_2.R/tentacle_B_3.R/tentacle_B_4.R
+        weight: 1
+      - path: octopus/base/tentacle_C_1.L
+        weight: 1
+      - path: octopus/base/tentacle_C_1.L/tentacle_C_2.L
+        weight: 1
+      - path: octopus/base/tentacle_C_1.L/tentacle_C_2.L/tentacle_C_3.L
+        weight: 1
+      - path: octopus/base/tentacle_C_1.L/tentacle_C_2.L/tentacle_C_3.L/tentacle_C_4.L
+        weight: 1
+      - path: octopus/base/tentacle_C_1.R
+        weight: 1
+      - path: octopus/base/tentacle_C_1.R/tentacle_C_2.R
+        weight: 1
+      - path: octopus/base/tentacle_C_1.R/tentacle_C_2.R/tentacle_C_3.R
+        weight: 1
+      - path: octopus/base/tentacle_C_1.R/tentacle_C_2.R/tentacle_C_3.R/tentacle_C_4.R
+        weight: 1
+      - path: octopus/base/tentacle_D_1.L
+        weight: 1
+      - path: octopus/base/tentacle_D_1.L/tentacle_D_2.L
+        weight: 1
+      - path: octopus/base/tentacle_D_1.L/tentacle_D_2.L/tentacle_D_3.L
+        weight: 1
+      - path: octopus/base/tentacle_D_1.L/tentacle_D_2.L/tentacle_D_3.L/tentacle_D_4.L
+        weight: 1
+      - path: octopus/base/tentacle_D_1.R
+        weight: 1
+      - path: octopus/base/tentacle_D_1.R/tentacle_D_2.R
+        weight: 1
+      - path: octopus/base/tentacle_D_1.R/tentacle_D_2.R/tentacle_D_3.R
+        weight: 1
+      - path: octopus/base/tentacle_D_1.R/tentacle_D_2.R/tentacle_D_3.R/tentacle_D_4.R
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: octopus|octopus_enter
+      takeName: octopus|octopus_enter
+      firstFrame: 0
+      lastFrame: 49
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: M_octopus
+        weight: 1
+      - path: octopus
+        weight: 1
+      - path: octopus/base
+        weight: 1
+      - path: octopus/base/head
+        weight: 1
+      - path: octopus/base/head/eyelid.L
+        weight: 1
+      - path: octopus/base/head/eyelid.L/left_eyelid
+        weight: 1
+      - path: octopus/base/head/eyelid.R
+        weight: 1
+      - path: octopus/base/head/eyelid.R/right_eyelid
+        weight: 1
+      - path: octopus/base/head/top
+        weight: 1
+      - path: octopus/base/tentacle_A_1.L
+        weight: 1
+      - path: octopus/base/tentacle_A_1.L/tentacle_A_2.L
+        weight: 1
+      - path: octopus/base/tentacle_A_1.L/tentacle_A_2.L/tentacle_A_3.L
+        weight: 1
+      - path: octopus/base/tentacle_A_1.L/tentacle_A_2.L/tentacle_A_3.L/tentacle_A_4.L
+        weight: 1
+      - path: octopus/base/tentacle_A_1.R
+        weight: 1
+      - path: octopus/base/tentacle_A_1.R/tentacle_A_2.R
+        weight: 1
+      - path: octopus/base/tentacle_A_1.R/tentacle_A_2.R/tentacle_A_3.R
+        weight: 1
+      - path: octopus/base/tentacle_A_1.R/tentacle_A_2.R/tentacle_A_3.R/tentacle_A_4.R
+        weight: 1
+      - path: octopus/base/tentacle_B_1.L
+        weight: 1
+      - path: octopus/base/tentacle_B_1.L/tentacle_B_2.L
+        weight: 1
+      - path: octopus/base/tentacle_B_1.L/tentacle_B_2.L/tentacle_B_3.L
+        weight: 1
+      - path: octopus/base/tentacle_B_1.L/tentacle_B_2.L/tentacle_B_3.L/tentacle_B_4.L
+        weight: 1
+      - path: octopus/base/tentacle_B_1.R
+        weight: 1
+      - path: octopus/base/tentacle_B_1.R/tentacle_B_2.R
+        weight: 1
+      - path: octopus/base/tentacle_B_1.R/tentacle_B_2.R/tentacle_B_3.R
+        weight: 1
+      - path: octopus/base/tentacle_B_1.R/tentacle_B_2.R/tentacle_B_3.R/tentacle_B_4.R
+        weight: 1
+      - path: octopus/base/tentacle_C_1.L
+        weight: 1
+      - path: octopus/base/tentacle_C_1.L/tentacle_C_2.L
+        weight: 1
+      - path: octopus/base/tentacle_C_1.L/tentacle_C_2.L/tentacle_C_3.L
+        weight: 1
+      - path: octopus/base/tentacle_C_1.L/tentacle_C_2.L/tentacle_C_3.L/tentacle_C_4.L
+        weight: 1
+      - path: octopus/base/tentacle_C_1.R
+        weight: 1
+      - path: octopus/base/tentacle_C_1.R/tentacle_C_2.R
+        weight: 1
+      - path: octopus/base/tentacle_C_1.R/tentacle_C_2.R/tentacle_C_3.R
+        weight: 1
+      - path: octopus/base/tentacle_C_1.R/tentacle_C_2.R/tentacle_C_3.R/tentacle_C_4.R
+        weight: 1
+      - path: octopus/base/tentacle_D_1.L
+        weight: 1
+      - path: octopus/base/tentacle_D_1.L/tentacle_D_2.L
+        weight: 1
+      - path: octopus/base/tentacle_D_1.L/tentacle_D_2.L/tentacle_D_3.L
+        weight: 1
+      - path: octopus/base/tentacle_D_1.L/tentacle_D_2.L/tentacle_D_3.L/tentacle_D_4.L
+        weight: 1
+      - path: octopus/base/tentacle_D_1.R
+        weight: 1
+      - path: octopus/base/tentacle_D_1.R/tentacle_D_2.R
+        weight: 1
+      - path: octopus/base/tentacle_D_1.R/tentacle_D_2.R/tentacle_D_3.R
+        weight: 1
+      - path: octopus/base/tentacle_D_1.R/tentacle_D_2.R/tentacle_D_3.R/tentacle_D_4.R
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: octopus|octopus_escape
+      takeName: octopus|octopus_escape
+      firstFrame: 0
+      lastFrame: 14
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: M_octopus
+        weight: 1
+      - path: octopus
+        weight: 1
+      - path: octopus/base
+        weight: 1
+      - path: octopus/base/head
+        weight: 1
+      - path: octopus/base/head/eyelid.L
+        weight: 1
+      - path: octopus/base/head/eyelid.L/left_eyelid
+        weight: 1
+      - path: octopus/base/head/eyelid.R
+        weight: 1
+      - path: octopus/base/head/eyelid.R/right_eyelid
+        weight: 1
+      - path: octopus/base/head/top
+        weight: 1
+      - path: octopus/base/tentacle_A_1.L
+        weight: 1
+      - path: octopus/base/tentacle_A_1.L/tentacle_A_2.L
+        weight: 1
+      - path: octopus/base/tentacle_A_1.L/tentacle_A_2.L/tentacle_A_3.L
+        weight: 1
+      - path: octopus/base/tentacle_A_1.L/tentacle_A_2.L/tentacle_A_3.L/tentacle_A_4.L
+        weight: 1
+      - path: octopus/base/tentacle_A_1.R
+        weight: 1
+      - path: octopus/base/tentacle_A_1.R/tentacle_A_2.R
+        weight: 1
+      - path: octopus/base/tentacle_A_1.R/tentacle_A_2.R/tentacle_A_3.R
+        weight: 1
+      - path: octopus/base/tentacle_A_1.R/tentacle_A_2.R/tentacle_A_3.R/tentacle_A_4.R
+        weight: 1
+      - path: octopus/base/tentacle_B_1.L
+        weight: 1
+      - path: octopus/base/tentacle_B_1.L/tentacle_B_2.L
+        weight: 1
+      - path: octopus/base/tentacle_B_1.L/tentacle_B_2.L/tentacle_B_3.L
+        weight: 1
+      - path: octopus/base/tentacle_B_1.L/tentacle_B_2.L/tentacle_B_3.L/tentacle_B_4.L
+        weight: 1
+      - path: octopus/base/tentacle_B_1.R
+        weight: 1
+      - path: octopus/base/tentacle_B_1.R/tentacle_B_2.R
+        weight: 1
+      - path: octopus/base/tentacle_B_1.R/tentacle_B_2.R/tentacle_B_3.R
+        weight: 1
+      - path: octopus/base/tentacle_B_1.R/tentacle_B_2.R/tentacle_B_3.R/tentacle_B_4.R
+        weight: 1
+      - path: octopus/base/tentacle_C_1.L
+        weight: 1
+      - path: octopus/base/tentacle_C_1.L/tentacle_C_2.L
+        weight: 1
+      - path: octopus/base/tentacle_C_1.L/tentacle_C_2.L/tentacle_C_3.L
+        weight: 1
+      - path: octopus/base/tentacle_C_1.L/tentacle_C_2.L/tentacle_C_3.L/tentacle_C_4.L
+        weight: 1
+      - path: octopus/base/tentacle_C_1.R
+        weight: 1
+      - path: octopus/base/tentacle_C_1.R/tentacle_C_2.R
+        weight: 1
+      - path: octopus/base/tentacle_C_1.R/tentacle_C_2.R/tentacle_C_3.R
+        weight: 1
+      - path: octopus/base/tentacle_C_1.R/tentacle_C_2.R/tentacle_C_3.R/tentacle_C_4.R
+        weight: 1
+      - path: octopus/base/tentacle_D_1.L
+        weight: 1
+      - path: octopus/base/tentacle_D_1.L/tentacle_D_2.L
+        weight: 1
+      - path: octopus/base/tentacle_D_1.L/tentacle_D_2.L/tentacle_D_3.L
+        weight: 1
+      - path: octopus/base/tentacle_D_1.L/tentacle_D_2.L/tentacle_D_3.L/tentacle_D_4.L
+        weight: 1
+      - path: octopus/base/tentacle_D_1.R
+        weight: 1
+      - path: octopus/base/tentacle_D_1.R/tentacle_D_2.R
+        weight: 1
+      - path: octopus/base/tentacle_D_1.R/tentacle_D_2.R/tentacle_D_3.R
+        weight: 1
+      - path: octopus/base/tentacle_D_1.R/tentacle_D_2.R/tentacle_D_3.R/tentacle_D_4.R
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: octopus|octopus_swim
+      takeName: octopus|octopus_swim
+      firstFrame: 0
+      lastFrame: 49
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: M_octopus
+        weight: 1
+      - path: octopus
+        weight: 1
+      - path: octopus/base
+        weight: 1
+      - path: octopus/base/head
+        weight: 1
+      - path: octopus/base/head/eyelid.L
+        weight: 1
+      - path: octopus/base/head/eyelid.L/left_eyelid
+        weight: 1
+      - path: octopus/base/head/eyelid.R
+        weight: 1
+      - path: octopus/base/head/eyelid.R/right_eyelid
+        weight: 1
+      - path: octopus/base/head/top
+        weight: 1
+      - path: octopus/base/tentacle_A_1.L
+        weight: 1
+      - path: octopus/base/tentacle_A_1.L/tentacle_A_2.L
+        weight: 1
+      - path: octopus/base/tentacle_A_1.L/tentacle_A_2.L/tentacle_A_3.L
+        weight: 1
+      - path: octopus/base/tentacle_A_1.L/tentacle_A_2.L/tentacle_A_3.L/tentacle_A_4.L
+        weight: 1
+      - path: octopus/base/tentacle_A_1.R
+        weight: 1
+      - path: octopus/base/tentacle_A_1.R/tentacle_A_2.R
+        weight: 1
+      - path: octopus/base/tentacle_A_1.R/tentacle_A_2.R/tentacle_A_3.R
+        weight: 1
+      - path: octopus/base/tentacle_A_1.R/tentacle_A_2.R/tentacle_A_3.R/tentacle_A_4.R
+        weight: 1
+      - path: octopus/base/tentacle_B_1.L
+        weight: 1
+      - path: octopus/base/tentacle_B_1.L/tentacle_B_2.L
+        weight: 1
+      - path: octopus/base/tentacle_B_1.L/tentacle_B_2.L/tentacle_B_3.L
+        weight: 1
+      - path: octopus/base/tentacle_B_1.L/tentacle_B_2.L/tentacle_B_3.L/tentacle_B_4.L
+        weight: 1
+      - path: octopus/base/tentacle_B_1.R
+        weight: 1
+      - path: octopus/base/tentacle_B_1.R/tentacle_B_2.R
+        weight: 1
+      - path: octopus/base/tentacle_B_1.R/tentacle_B_2.R/tentacle_B_3.R
+        weight: 1
+      - path: octopus/base/tentacle_B_1.R/tentacle_B_2.R/tentacle_B_3.R/tentacle_B_4.R
+        weight: 1
+      - path: octopus/base/tentacle_C_1.L
+        weight: 1
+      - path: octopus/base/tentacle_C_1.L/tentacle_C_2.L
+        weight: 1
+      - path: octopus/base/tentacle_C_1.L/tentacle_C_2.L/tentacle_C_3.L
+        weight: 1
+      - path: octopus/base/tentacle_C_1.L/tentacle_C_2.L/tentacle_C_3.L/tentacle_C_4.L
+        weight: 1
+      - path: octopus/base/tentacle_C_1.R
+        weight: 1
+      - path: octopus/base/tentacle_C_1.R/tentacle_C_2.R
+        weight: 1
+      - path: octopus/base/tentacle_C_1.R/tentacle_C_2.R/tentacle_C_3.R
+        weight: 1
+      - path: octopus/base/tentacle_C_1.R/tentacle_C_2.R/tentacle_C_3.R/tentacle_C_4.R
+        weight: 1
+      - path: octopus/base/tentacle_D_1.L
+        weight: 1
+      - path: octopus/base/tentacle_D_1.L/tentacle_D_2.L
+        weight: 1
+      - path: octopus/base/tentacle_D_1.L/tentacle_D_2.L/tentacle_D_3.L
+        weight: 1
+      - path: octopus/base/tentacle_D_1.L/tentacle_D_2.L/tentacle_D_3.L/tentacle_D_4.L
+        weight: 1
+      - path: octopus/base/tentacle_D_1.R
+        weight: 1
+      - path: octopus/base/tentacle_D_1.R/tentacle_D_2.R
+        weight: 1
+      - path: octopus/base/tentacle_D_1.R/tentacle_D_2.R/tentacle_D_3.R
+        weight: 1
+      - path: octopus/base/tentacle_D_1.R/tentacle_D_2.R/tentacle_D_3.R/tentacle_D_4.R
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

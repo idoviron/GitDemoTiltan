@@ -1,0 +1,406 @@
+fileFormatVersion: 2
+guid: 22407884e823f0e418defa671059dd64
+timeCreated: 1491250607
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: back
+    100002: backFin
+    100004: base
+    100006: bottomFin
+    100008: fin.L
+    100010: fin.R
+    100012: //RootNode
+    100014: head
+    100016: hips
+    100018: left_eyelid
+    100020: m_yellowTang_left_eye
+    100022: m_yellowTang_right_eye
+    100024: M_yellowTangFish_paint
+    100026: right_eyelid
+    100028: tail
+    100030: yellowTang
+    100032: eye.L
+    100034: eye.R
+    100036: eyelid.L
+    100038: eyelid.R
+    400000: back
+    400002: backFin
+    400004: base
+    400006: bottomFin
+    400008: fin.L
+    400010: fin.R
+    400012: //RootNode
+    400014: head
+    400016: hips
+    400018: left_eyelid
+    400020: m_yellowTang_left_eye
+    400022: m_yellowTang_right_eye
+    400024: M_yellowTangFish_paint
+    400026: right_eyelid
+    400028: tail
+    400030: yellowTang
+    400032: eye.L
+    400034: eye.R
+    400036: eyelid.L
+    400038: eyelid.R
+    2300000: left_eyelid
+    2300002: m_yellowTang_left_eye
+    2300004: m_yellowTang_right_eye
+    2300006: right_eyelid
+    3300000: left_eyelid
+    3300002: m_yellowTang_left_eye
+    3300004: m_yellowTang_right_eye
+    3300006: right_eyelid
+    4300000: M_yellowTangFish_paint
+    4300002: m_yellowTang_right_eye
+    4300004: m_yellowTang_left_eye
+    4300006: right_eyelid
+    4300008: left_eyelid
+    7400000: yellowTang|yellowTang_curious
+    7400002: yellowTang|yellowTang_enter
+    7400004: yellowTang|yellowTang_escape
+    7400006: yellowTang|yellowTang_swim
+    9500000: //RootNode
+    13700000: M_yellowTangFish_paint
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: yellowTang|yellowTang_curious
+      takeName: yellowTang|yellowTang_curious
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: M_yellowTangFish_paint
+        weight: 1
+      - path: yellowTang
+        weight: 1
+      - path: yellowTang/base
+        weight: 1
+      - path: yellowTang/base/back
+        weight: 1
+      - path: yellowTang/base/back/bottomFin
+        weight: 1
+      - path: yellowTang/base/back/hips
+        weight: 1
+      - path: yellowTang/base/back/hips/tail
+        weight: 1
+      - path: yellowTang/base/backFin
+        weight: 1
+      - path: yellowTang/base/head
+        weight: 1
+      - path: yellowTang/base/head/eye.L
+        weight: 1
+      - path: yellowTang/base/head/eye.L/m_yellowTang_right_eye
+        weight: 1
+      - path: yellowTang/base/head/eye.R
+        weight: 1
+      - path: yellowTang/base/head/eye.R/m_yellowTang_left_eye
+        weight: 1
+      - path: yellowTang/base/head/eyelid.L
+        weight: 1
+      - path: yellowTang/base/head/eyelid.L/left_eyelid
+        weight: 1
+      - path: yellowTang/base/head/eyelid.R
+        weight: 1
+      - path: yellowTang/base/head/eyelid.R/right_eyelid
+        weight: 1
+      - path: yellowTang/base/head/fin.L
+        weight: 1
+      - path: yellowTang/base/head/fin.R
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: yellowTang|yellowTang_escape
+      takeName: yellowTang|yellowTang_escape
+      firstFrame: 0
+      lastFrame: 6
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: M_yellowTangFish_paint
+        weight: 1
+      - path: yellowTang
+        weight: 1
+      - path: yellowTang/base
+        weight: 1
+      - path: yellowTang/base/back
+        weight: 1
+      - path: yellowTang/base/back/bottomFin
+        weight: 1
+      - path: yellowTang/base/back/hips
+        weight: 1
+      - path: yellowTang/base/back/hips/tail
+        weight: 1
+      - path: yellowTang/base/backFin
+        weight: 1
+      - path: yellowTang/base/head
+        weight: 1
+      - path: yellowTang/base/head/eye.L
+        weight: 1
+      - path: yellowTang/base/head/eye.L/m_yellowTang_right_eye
+        weight: 1
+      - path: yellowTang/base/head/eye.R
+        weight: 1
+      - path: yellowTang/base/head/eye.R/m_yellowTang_left_eye
+        weight: 1
+      - path: yellowTang/base/head/eyelid.L
+        weight: 1
+      - path: yellowTang/base/head/eyelid.L/left_eyelid
+        weight: 1
+      - path: yellowTang/base/head/eyelid.R
+        weight: 1
+      - path: yellowTang/base/head/eyelid.R/right_eyelid
+        weight: 1
+      - path: yellowTang/base/head/fin.L
+        weight: 1
+      - path: yellowTang/base/head/fin.R
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: yellowTang|yellowTang_swim
+      takeName: yellowTang|yellowTang_swim
+      firstFrame: 0
+      lastFrame: 23
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: M_yellowTangFish_paint
+        weight: 1
+      - path: yellowTang
+        weight: 1
+      - path: yellowTang/base
+        weight: 1
+      - path: yellowTang/base/back
+        weight: 1
+      - path: yellowTang/base/back/bottomFin
+        weight: 1
+      - path: yellowTang/base/back/hips
+        weight: 1
+      - path: yellowTang/base/back/hips/tail
+        weight: 1
+      - path: yellowTang/base/backFin
+        weight: 1
+      - path: yellowTang/base/head
+        weight: 1
+      - path: yellowTang/base/head/eye.L
+        weight: 1
+      - path: yellowTang/base/head/eye.L/m_yellowTang_right_eye
+        weight: 1
+      - path: yellowTang/base/head/eye.R
+        weight: 1
+      - path: yellowTang/base/head/eye.R/m_yellowTang_left_eye
+        weight: 1
+      - path: yellowTang/base/head/eyelid.L
+        weight: 1
+      - path: yellowTang/base/head/eyelid.L/left_eyelid
+        weight: 1
+      - path: yellowTang/base/head/eyelid.R
+        weight: 1
+      - path: yellowTang/base/head/eyelid.R/right_eyelid
+        weight: 1
+      - path: yellowTang/base/head/fin.L
+        weight: 1
+      - path: yellowTang/base/head/fin.R
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: yellowTang|yellowTang_enter
+      takeName: yellowTang|yellowTang_enter
+      firstFrame: 0
+      lastFrame: 23
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: M_yellowTangFish_paint
+        weight: 1
+      - path: yellowTang
+        weight: 1
+      - path: yellowTang/base
+        weight: 1
+      - path: yellowTang/base/back
+        weight: 1
+      - path: yellowTang/base/back/bottomFin
+        weight: 1
+      - path: yellowTang/base/back/hips
+        weight: 1
+      - path: yellowTang/base/back/hips/tail
+        weight: 1
+      - path: yellowTang/base/backFin
+        weight: 1
+      - path: yellowTang/base/head
+        weight: 1
+      - path: yellowTang/base/head/eye.L
+        weight: 1
+      - path: yellowTang/base/head/eye.L/m_yellowTang_right_eye
+        weight: 1
+      - path: yellowTang/base/head/eye.R
+        weight: 1
+      - path: yellowTang/base/head/eye.R/m_yellowTang_left_eye
+        weight: 1
+      - path: yellowTang/base/head/eyelid.L
+        weight: 1
+      - path: yellowTang/base/head/eyelid.L/left_eyelid
+        weight: 1
+      - path: yellowTang/base/head/eyelid.R
+        weight: 1
+      - path: yellowTang/base/head/eyelid.R/right_eyelid
+        weight: 1
+      - path: yellowTang/base/head/fin.L
+        weight: 1
+      - path: yellowTang/base/head/fin.R
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,535 @@
+fileFormatVersion: 2
+guid: 45232c50548f2d944abaf7a689bce39a
+timeCreated: 1491250612
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Armature
+    100002: back
+    100004: base
+    100006: eye.L
+    100008: eye.R
+    100010: eyeLid.L
+    100012: eyeLid.R
+    100014: face
+    100016: //RootNode
+    100018: flopBase.L
+    100020: flopBase.R
+    100022: flopEnd.L
+    100024: flopEnd.R
+    100026: flopMid.L
+    100028: flopMid.R
+    100030: flopTip.L
+    100032: flopTip.R
+    100034: hips
+    100036: m_manta_left_eye
+    100038: m_manta_right_eye
+    100040: M_mantaRay_paint
+    100042: nose.L
+    100044: nose.R
+    100046: Sphere
+    100048: Sphere.001
+    100050: tailA
+    100052: tailB
+    100054: tailC
+    100056: tailD
+    400000: Armature
+    400002: back
+    400004: base
+    400006: eye.L
+    400008: eye.R
+    400010: eyeLid.L
+    400012: eyeLid.R
+    400014: face
+    400016: //RootNode
+    400018: flopBase.L
+    400020: flopBase.R
+    400022: flopEnd.L
+    400024: flopEnd.R
+    400026: flopMid.L
+    400028: flopMid.R
+    400030: flopTip.L
+    400032: flopTip.R
+    400034: hips
+    400036: m_manta_left_eye
+    400038: m_manta_right_eye
+    400040: M_mantaRay_paint
+    400042: nose.L
+    400044: nose.R
+    400046: Sphere
+    400048: Sphere.001
+    400050: tailA
+    400052: tailB
+    400054: tailC
+    400056: tailD
+    2300000: m_manta_left_eye
+    2300002: m_manta_right_eye
+    2300004: Sphere
+    2300006: Sphere.001
+    3300000: m_manta_left_eye
+    3300002: m_manta_right_eye
+    3300004: Sphere
+    3300006: Sphere.001
+    4300000: m_manta_right_eye
+    4300002: Sphere.001
+    4300004: m_manta_left_eye
+    4300006: Sphere
+    4300008: M_mantaRay_paint
+    7400000: Armature|manta_curious
+    7400002: Armature|manta_enter
+    7400004: Armature|manta_escape
+    7400006: Armature|manta_swim
+    9500000: //RootNode
+    13700000: M_mantaRay_paint
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_eyes
+    second: {fileID: 2100000, guid: 1d2985e200114c3478ec622096058af2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_mantaRay
+    second: {fileID: 2100000, guid: 6268fd6e6fba666479c2f26631f0598f, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Armature|manta_curious
+      takeName: Armature|manta_curious
+      firstFrame: 0
+      lastFrame: 79
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/base
+        weight: 1
+      - path: Armature/base/back
+        weight: 1
+      - path: Armature/base/back/hips
+        weight: 1
+      - path: Armature/base/back/hips/tailA
+        weight: 1
+      - path: Armature/base/back/hips/tailA/tailB
+        weight: 1
+      - path: Armature/base/back/hips/tailA/tailB/tailC
+        weight: 1
+      - path: Armature/base/back/hips/tailA/tailB/tailC/tailD
+        weight: 1
+      - path: Armature/base/face
+        weight: 1
+      - path: Armature/base/face/eye.L
+        weight: 1
+      - path: Armature/base/face/eye.L/m_manta_right_eye
+        weight: 1
+      - path: Armature/base/face/eye.R
+        weight: 1
+      - path: Armature/base/face/eye.R/m_manta_left_eye
+        weight: 1
+      - path: Armature/base/face/eyeLid.L
+        weight: 1
+      - path: Armature/base/face/eyeLid.L/Sphere.001
+        weight: 1
+      - path: Armature/base/face/eyeLid.R
+        weight: 1
+      - path: Armature/base/face/eyeLid.R/Sphere
+        weight: 1
+      - path: Armature/base/face/nose.L
+        weight: 1
+      - path: Armature/base/face/nose.R
+        weight: 1
+      - path: Armature/base/flopBase.L
+        weight: 1
+      - path: Armature/base/flopBase.L/flopMid.L
+        weight: 1
+      - path: Armature/base/flopBase.L/flopMid.L/flopTip.L
+        weight: 1
+      - path: Armature/base/flopBase.L/flopMid.L/flopTip.L/flopEnd.L
+        weight: 1
+      - path: Armature/base/flopBase.R
+        weight: 1
+      - path: Armature/base/flopBase.R/flopMid.R
+        weight: 1
+      - path: Armature/base/flopBase.R/flopMid.R/flopTip.R
+        weight: 1
+      - path: Armature/base/flopBase.R/flopMid.R/flopTip.R/flopEnd.R
+        weight: 1
+      - path: M_mantaRay_paint
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|manta_enter
+      takeName: Armature|manta_enter
+      firstFrame: 0
+      lastFrame: 79
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/base
+        weight: 1
+      - path: Armature/base/back
+        weight: 1
+      - path: Armature/base/back/hips
+        weight: 1
+      - path: Armature/base/back/hips/tailA
+        weight: 1
+      - path: Armature/base/back/hips/tailA/tailB
+        weight: 1
+      - path: Armature/base/back/hips/tailA/tailB/tailC
+        weight: 1
+      - path: Armature/base/back/hips/tailA/tailB/tailC/tailD
+        weight: 1
+      - path: Armature/base/face
+        weight: 1
+      - path: Armature/base/face/eye.L
+        weight: 1
+      - path: Armature/base/face/eye.L/m_manta_right_eye
+        weight: 1
+      - path: Armature/base/face/eye.R
+        weight: 1
+      - path: Armature/base/face/eye.R/m_manta_left_eye
+        weight: 1
+      - path: Armature/base/face/eyeLid.L
+        weight: 1
+      - path: Armature/base/face/eyeLid.L/Sphere.001
+        weight: 1
+      - path: Armature/base/face/eyeLid.R
+        weight: 1
+      - path: Armature/base/face/eyeLid.R/Sphere
+        weight: 1
+      - path: Armature/base/face/nose.L
+        weight: 1
+      - path: Armature/base/face/nose.R
+        weight: 1
+      - path: Armature/base/flopBase.L
+        weight: 1
+      - path: Armature/base/flopBase.L/flopMid.L
+        weight: 1
+      - path: Armature/base/flopBase.L/flopMid.L/flopTip.L
+        weight: 1
+      - path: Armature/base/flopBase.L/flopMid.L/flopTip.L/flopEnd.L
+        weight: 1
+      - path: Armature/base/flopBase.R
+        weight: 1
+      - path: Armature/base/flopBase.R/flopMid.R
+        weight: 1
+      - path: Armature/base/flopBase.R/flopMid.R/flopTip.R
+        weight: 1
+      - path: Armature/base/flopBase.R/flopMid.R/flopTip.R/flopEnd.R
+        weight: 1
+      - path: M_mantaRay_paint
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|manta_escape
+      takeName: Armature|manta_escape
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/base
+        weight: 1
+      - path: Armature/base/back
+        weight: 1
+      - path: Armature/base/back/hips
+        weight: 1
+      - path: Armature/base/back/hips/tailA
+        weight: 1
+      - path: Armature/base/back/hips/tailA/tailB
+        weight: 1
+      - path: Armature/base/back/hips/tailA/tailB/tailC
+        weight: 1
+      - path: Armature/base/back/hips/tailA/tailB/tailC/tailD
+        weight: 1
+      - path: Armature/base/face
+        weight: 1
+      - path: Armature/base/face/eye.L
+        weight: 1
+      - path: Armature/base/face/eye.L/m_manta_right_eye
+        weight: 1
+      - path: Armature/base/face/eye.R
+        weight: 1
+      - path: Armature/base/face/eye.R/m_manta_left_eye
+        weight: 1
+      - path: Armature/base/face/eyeLid.L
+        weight: 1
+      - path: Armature/base/face/eyeLid.L/Sphere.001
+        weight: 1
+      - path: Armature/base/face/eyeLid.R
+        weight: 1
+      - path: Armature/base/face/eyeLid.R/Sphere
+        weight: 1
+      - path: Armature/base/face/nose.L
+        weight: 1
+      - path: Armature/base/face/nose.R
+        weight: 1
+      - path: Armature/base/flopBase.L
+        weight: 1
+      - path: Armature/base/flopBase.L/flopMid.L
+        weight: 1
+      - path: Armature/base/flopBase.L/flopMid.L/flopTip.L
+        weight: 1
+      - path: Armature/base/flopBase.L/flopMid.L/flopTip.L/flopEnd.L
+        weight: 1
+      - path: Armature/base/flopBase.R
+        weight: 1
+      - path: Armature/base/flopBase.R/flopMid.R
+        weight: 1
+      - path: Armature/base/flopBase.R/flopMid.R/flopTip.R
+        weight: 1
+      - path: Armature/base/flopBase.R/flopMid.R/flopTip.R/flopEnd.R
+        weight: 1
+      - path: M_mantaRay_paint
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|manta_swim
+      takeName: Armature|manta_swim
+      firstFrame: 0
+      lastFrame: 79
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves:
+      - name: Curve
+        curve:
+          serializedVersion: 2
+          curve:
+          - serializedVersion: 2
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          - serializedVersion: 2
+            time: 1
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          preInfinity: 3
+          postInfinity: 3
+          rotationOrder: 0
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/base
+        weight: 1
+      - path: Armature/base/back
+        weight: 1
+      - path: Armature/base/back/hips
+        weight: 1
+      - path: Armature/base/back/hips/tailA
+        weight: 1
+      - path: Armature/base/back/hips/tailA/tailB
+        weight: 1
+      - path: Armature/base/back/hips/tailA/tailB/tailC
+        weight: 1
+      - path: Armature/base/back/hips/tailA/tailB/tailC/tailD
+        weight: 1
+      - path: Armature/base/face
+        weight: 1
+      - path: Armature/base/face/eye.L
+        weight: 1
+      - path: Armature/base/face/eye.L/m_manta_right_eye
+        weight: 1
+      - path: Armature/base/face/eye.R
+        weight: 1
+      - path: Armature/base/face/eye.R/m_manta_left_eye
+        weight: 1
+      - path: Armature/base/face/eyeLid.L
+        weight: 1
+      - path: Armature/base/face/eyeLid.L/Sphere.001
+        weight: 1
+      - path: Armature/base/face/eyeLid.R
+        weight: 1
+      - path: Armature/base/face/eyeLid.R/Sphere
+        weight: 1
+      - path: Armature/base/face/nose.L
+        weight: 1
+      - path: Armature/base/face/nose.R
+        weight: 1
+      - path: Armature/base/flopBase.L
+        weight: 1
+      - path: Armature/base/flopBase.L/flopMid.L
+        weight: 1
+      - path: Armature/base/flopBase.L/flopMid.L/flopTip.L
+        weight: 1
+      - path: Armature/base/flopBase.L/flopMid.L/flopTip.L/flopEnd.L
+        weight: 1
+      - path: Armature/base/flopBase.R
+        weight: 1
+      - path: Armature/base/flopBase.R/flopMid.R
+        weight: 1
+      - path: Armature/base/flopBase.R/flopMid.R/flopTip.R
+        weight: 1
+      - path: Armature/base/flopBase.R/flopMid.R/flopTip.R/flopEnd.R
+        weight: 1
+      - path: M_mantaRay_paint
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,496 @@
+fileFormatVersion: 2
+guid: 22a0df6958ae2c047b7729863295009b
+timeCreated: 1491250611
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Armature
+    100002: back
+    100004: backFinA
+    100006: backFinB
+    100008: chest
+    100010: ear.L
+    100012: ear.R
+    100014: //RootNode
+    100016: head
+    100018: headFin
+    100020: hips
+    100022: left_eyelid
+    100024: m_seaHorse_left_eye
+    100026: M_seaHorse_paint
+    100028: m_seaHorse_right_eye
+    100030: mouth
+    100032: neck
+    100034: neckFin
+    100036: right_eyelid
+    100038: tailA
+    100040: tailB
+    100042: tailBase
+    100044: tailC
+    100046: tailD
+    100048: tailE
+    100050: eye.L
+    100052: eye.R
+    100054: eyelid.L
+    100056: eyelid.R
+    400000: Armature
+    400002: back
+    400004: backFinA
+    400006: backFinB
+    400008: chest
+    400010: ear.L
+    400012: ear.R
+    400014: //RootNode
+    400016: head
+    400018: headFin
+    400020: hips
+    400022: left_eyelid
+    400024: m_seaHorse_left_eye
+    400026: M_seaHorse_paint
+    400028: m_seaHorse_right_eye
+    400030: mouth
+    400032: neck
+    400034: neckFin
+    400036: right_eyelid
+    400038: tailA
+    400040: tailB
+    400042: tailBase
+    400044: tailC
+    400046: tailD
+    400048: tailE
+    400050: eye.L
+    400052: eye.R
+    400054: eyelid.L
+    400056: eyelid.R
+    2300000: left_eyelid
+    2300002: m_seaHorse_left_eye
+    2300004: m_seaHorse_right_eye
+    2300006: right_eyelid
+    3300000: left_eyelid
+    3300002: m_seaHorse_left_eye
+    3300004: m_seaHorse_right_eye
+    3300006: right_eyelid
+    4300000: m_seaHorse_right_eye
+    4300002: m_seaHorse_left_eye
+    4300004: right_eyelid
+    4300006: left_eyelid
+    4300008: M_seaHorse_paint
+    7400000: Armature|seahorse_enter
+    7400002: Armature|seahorse_escape
+    7400004: Armature|seahorse_swim
+    7400006: Armature|seahorse_curious
+    9500000: //RootNode
+    13700000: M_seaHorse_paint
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Armature|seahorse_enter
+      takeName: Armature|seahorse_enter
+      firstFrame: 0
+      lastFrame: 23
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/back
+        weight: 1
+      - path: Armature/back/backFinA
+        weight: 1
+      - path: Armature/back/backFinB
+        weight: 1
+      - path: Armature/back/chest
+        weight: 1
+      - path: Armature/back/chest/neck
+        weight: 1
+      - path: Armature/back/chest/neck/head
+        weight: 1
+      - path: Armature/back/chest/neck/head/ear.L
+        weight: 1
+      - path: Armature/back/chest/neck/head/ear.R
+        weight: 1
+      - path: Armature/back/chest/neck/head/eye.L
+        weight: 1
+      - path: Armature/back/chest/neck/head/eye.L/m_seaHorse_right_eye
+        weight: 1
+      - path: Armature/back/chest/neck/head/eye.R
+        weight: 1
+      - path: Armature/back/chest/neck/head/eye.R/m_seaHorse_left_eye
+        weight: 1
+      - path: Armature/back/chest/neck/head/eyelid.L
+        weight: 1
+      - path: Armature/back/chest/neck/head/eyelid.L/left_eyelid
+        weight: 1
+      - path: Armature/back/chest/neck/head/eyelid.R
+        weight: 1
+      - path: Armature/back/chest/neck/head/eyelid.R/right_eyelid
+        weight: 1
+      - path: Armature/back/chest/neck/head/headFin
+        weight: 1
+      - path: Armature/back/chest/neck/head/mouth
+        weight: 1
+      - path: Armature/back/chest/neck/neckFin
+        weight: 1
+      - path: Armature/back/hips
+        weight: 1
+      - path: Armature/back/hips/tailBase
+        weight: 1
+      - path: Armature/back/hips/tailBase/tailA
+        weight: 1
+      - path: Armature/back/hips/tailBase/tailA/tailB
+        weight: 1
+      - path: Armature/back/hips/tailBase/tailA/tailB/tailC
+        weight: 1
+      - path: Armature/back/hips/tailBase/tailA/tailB/tailC/tailD
+        weight: 1
+      - path: Armature/back/hips/tailBase/tailA/tailB/tailC/tailD/tailE
+        weight: 1
+      - path: M_seaHorse_paint
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|seahorse_escape
+      takeName: Armature|seahorse_escape
+      firstFrame: 0
+      lastFrame: 6
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/back
+        weight: 1
+      - path: Armature/back/backFinA
+        weight: 1
+      - path: Armature/back/backFinB
+        weight: 1
+      - path: Armature/back/chest
+        weight: 1
+      - path: Armature/back/chest/neck
+        weight: 1
+      - path: Armature/back/chest/neck/head
+        weight: 1
+      - path: Armature/back/chest/neck/head/ear.L
+        weight: 1
+      - path: Armature/back/chest/neck/head/ear.R
+        weight: 1
+      - path: Armature/back/chest/neck/head/eye.L
+        weight: 1
+      - path: Armature/back/chest/neck/head/eye.L/m_seaHorse_right_eye
+        weight: 1
+      - path: Armature/back/chest/neck/head/eye.R
+        weight: 1
+      - path: Armature/back/chest/neck/head/eye.R/m_seaHorse_left_eye
+        weight: 1
+      - path: Armature/back/chest/neck/head/eyelid.L
+        weight: 1
+      - path: Armature/back/chest/neck/head/eyelid.L/left_eyelid
+        weight: 1
+      - path: Armature/back/chest/neck/head/eyelid.R
+        weight: 1
+      - path: Armature/back/chest/neck/head/eyelid.R/right_eyelid
+        weight: 1
+      - path: Armature/back/chest/neck/head/headFin
+        weight: 1
+      - path: Armature/back/chest/neck/head/mouth
+        weight: 1
+      - path: Armature/back/chest/neck/neckFin
+        weight: 1
+      - path: Armature/back/hips
+        weight: 1
+      - path: Armature/back/hips/tailBase
+        weight: 1
+      - path: Armature/back/hips/tailBase/tailA
+        weight: 1
+      - path: Armature/back/hips/tailBase/tailA/tailB
+        weight: 1
+      - path: Armature/back/hips/tailBase/tailA/tailB/tailC
+        weight: 1
+      - path: Armature/back/hips/tailBase/tailA/tailB/tailC/tailD
+        weight: 1
+      - path: Armature/back/hips/tailBase/tailA/tailB/tailC/tailD/tailE
+        weight: 1
+      - path: M_seaHorse_paint
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|seahorse_swim
+      takeName: Armature|seahorse_swim
+      firstFrame: 0
+      lastFrame: 23
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/back
+        weight: 1
+      - path: Armature/back/backFinA
+        weight: 1
+      - path: Armature/back/backFinB
+        weight: 1
+      - path: Armature/back/chest
+        weight: 1
+      - path: Armature/back/chest/neck
+        weight: 1
+      - path: Armature/back/chest/neck/head
+        weight: 1
+      - path: Armature/back/chest/neck/head/ear.L
+        weight: 1
+      - path: Armature/back/chest/neck/head/ear.R
+        weight: 1
+      - path: Armature/back/chest/neck/head/eye.L
+        weight: 1
+      - path: Armature/back/chest/neck/head/eye.L/m_seaHorse_right_eye
+        weight: 1
+      - path: Armature/back/chest/neck/head/eye.R
+        weight: 1
+      - path: Armature/back/chest/neck/head/eye.R/m_seaHorse_left_eye
+        weight: 1
+      - path: Armature/back/chest/neck/head/eyelid.L
+        weight: 1
+      - path: Armature/back/chest/neck/head/eyelid.L/left_eyelid
+        weight: 1
+      - path: Armature/back/chest/neck/head/eyelid.R
+        weight: 1
+      - path: Armature/back/chest/neck/head/eyelid.R/right_eyelid
+        weight: 1
+      - path: Armature/back/chest/neck/head/headFin
+        weight: 1
+      - path: Armature/back/chest/neck/head/mouth
+        weight: 1
+      - path: Armature/back/chest/neck/neckFin
+        weight: 1
+      - path: Armature/back/hips
+        weight: 1
+      - path: Armature/back/hips/tailBase
+        weight: 1
+      - path: Armature/back/hips/tailBase/tailA
+        weight: 1
+      - path: Armature/back/hips/tailBase/tailA/tailB
+        weight: 1
+      - path: Armature/back/hips/tailBase/tailA/tailB/tailC
+        weight: 1
+      - path: Armature/back/hips/tailBase/tailA/tailB/tailC/tailD
+        weight: 1
+      - path: Armature/back/hips/tailBase/tailA/tailB/tailC/tailD/tailE
+        weight: 1
+      - path: M_seaHorse_paint
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|seahorse_curious
+      takeName: Armature|seahorse_curious
+      firstFrame: 0
+      lastFrame: 55
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/back
+        weight: 1
+      - path: Armature/back/backFinA
+        weight: 1
+      - path: Armature/back/backFinB
+        weight: 1
+      - path: Armature/back/chest
+        weight: 1
+      - path: Armature/back/chest/neck
+        weight: 1
+      - path: Armature/back/chest/neck/head
+        weight: 1
+      - path: Armature/back/chest/neck/head/ear.L
+        weight: 1
+      - path: Armature/back/chest/neck/head/ear.R
+        weight: 1
+      - path: Armature/back/chest/neck/head/eye.L
+        weight: 1
+      - path: Armature/back/chest/neck/head/eye.L/m_seaHorse_right_eye
+        weight: 1
+      - path: Armature/back/chest/neck/head/eye.R
+        weight: 1
+      - path: Armature/back/chest/neck/head/eye.R/m_seaHorse_left_eye
+        weight: 1
+      - path: Armature/back/chest/neck/head/eyelid.L
+        weight: 1
+      - path: Armature/back/chest/neck/head/eyelid.L/left_eyelid
+        weight: 1
+      - path: Armature/back/chest/neck/head/eyelid.R
+        weight: 1
+      - path: Armature/back/chest/neck/head/eyelid.R/right_eyelid
+        weight: 1
+      - path: Armature/back/chest/neck/head/headFin
+        weight: 1
+      - path: Armature/back/chest/neck/head/mouth
+        weight: 1
+      - path: Armature/back/chest/neck/neckFin
+        weight: 1
+      - path: Armature/back/hips
+        weight: 1
+      - path: Armature/back/hips/tailBase
+        weight: 1
+      - path: Armature/back/hips/tailBase/tailA
+        weight: 1
+      - path: Armature/back/hips/tailBase/tailA/tailB
+        weight: 1
+      - path: Armature/back/hips/tailBase/tailA/tailB/tailC
+        weight: 1
+      - path: Armature/back/hips/tailBase/tailA/tailB/tailC/tailD
+        weight: 1
+      - path: Armature/back/hips/tailBase/tailA/tailB/tailC/tailD/tailE
+        weight: 1
+      - path: M_seaHorse_paint
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

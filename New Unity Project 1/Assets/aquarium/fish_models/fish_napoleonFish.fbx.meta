@@ -1,0 +1,476 @@
+fileFormatVersion: 2
+guid: b59ac93e6e35d7e47ae302eac3b004ed
+timeCreated: 1491250618
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: back
+    100002: back_fin
+    100004: base
+    100006: body_fin
+    100008: eye.L
+    100010: eye.R
+    100012: eye_blink.L
+    100014: eye_blink.R
+    100016: fin_A.L
+    100018: fin_A.R
+    100020: fin_B.L
+    100022: fin_B.R
+    100024: //RootNode
+    100026: head
+    100028: head_fin
+    100030: jaw
+    100032: left_eyelid
+    100034: m_napoleon_left_eye
+    100036: m_napoleon_right_eye
+    100038: M_napoleonFish
+    100040: napoleonFish
+    100042: right_eyelid
+    100044: tail_A
+    100046: tail_B
+    100048: tail_C
+    100050: top_fin_A
+    100052: top_fin_B
+    400000: back
+    400002: back_fin
+    400004: base
+    400006: body_fin
+    400008: eye.L
+    400010: eye.R
+    400012: eye_blink.L
+    400014: eye_blink.R
+    400016: fin_A.L
+    400018: fin_A.R
+    400020: fin_B.L
+    400022: fin_B.R
+    400024: //RootNode
+    400026: head
+    400028: head_fin
+    400030: jaw
+    400032: left_eyelid
+    400034: m_napoleon_left_eye
+    400036: m_napoleon_right_eye
+    400038: M_napoleonFish
+    400040: napoleonFish
+    400042: right_eyelid
+    400044: tail_A
+    400046: tail_B
+    400048: tail_C
+    400050: top_fin_A
+    400052: top_fin_B
+    2300000: left_eyelid
+    2300002: m_napoleon_left_eye
+    2300004: m_napoleon_right_eye
+    2300006: right_eyelid
+    3300000: left_eyelid
+    3300002: m_napoleon_left_eye
+    3300004: m_napoleon_right_eye
+    3300006: right_eyelid
+    4300000: m_napoleon_left_eye
+    4300002: m_napoleon_right_eye
+    4300004: left_eyelid
+    4300006: right_eyelid
+    4300008: M_napoleonFish
+    7400000: napoleonFish|napoleon_curious
+    7400002: napoleonFish|napoleon_enter
+    7400004: napoleonFish|napoleon_idle_swim
+    7400006: napoleonFish|napoleon_scared_escape
+    9500000: //RootNode
+    13700000: M_napoleonFish
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: napoleonFish|napoleon_curious
+      takeName: napoleonFish|napoleon_curious
+      firstFrame: 0
+      lastFrame: 23
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: M_napoleonFish
+        weight: 1
+      - path: napoleonFish
+        weight: 1
+      - path: napoleonFish/base
+        weight: 1
+      - path: napoleonFish/base/back
+        weight: 1
+      - path: napoleonFish/base/back/back_fin
+        weight: 1
+      - path: napoleonFish/base/back/tail_A
+        weight: 1
+      - path: napoleonFish/base/back/tail_A/tail_B
+        weight: 1
+      - path: napoleonFish/base/back/tail_A/tail_B/tail_C
+        weight: 1
+      - path: napoleonFish/base/back/top_fin_B
+        weight: 1
+      - path: napoleonFish/base/body_fin
+        weight: 1
+      - path: napoleonFish/base/head
+        weight: 1
+      - path: napoleonFish/base/head/eye.L
+        weight: 1
+      - path: napoleonFish/base/head/eye.L/m_napoleon_right_eye
+        weight: 1
+      - path: napoleonFish/base/head/eye.R
+        weight: 1
+      - path: napoleonFish/base/head/eye.R/m_napoleon_left_eye
+        weight: 1
+      - path: napoleonFish/base/head/eye_blink.L
+        weight: 1
+      - path: napoleonFish/base/head/eye_blink.L/left_eyelid
+        weight: 1
+      - path: napoleonFish/base/head/eye_blink.R
+        weight: 1
+      - path: napoleonFish/base/head/eye_blink.R/right_eyelid
+        weight: 1
+      - path: napoleonFish/base/head/fin_A.L
+        weight: 1
+      - path: napoleonFish/base/head/fin_A.L/fin_B.L
+        weight: 1
+      - path: napoleonFish/base/head/fin_A.R
+        weight: 1
+      - path: napoleonFish/base/head/fin_A.R/fin_B.R
+        weight: 1
+      - path: napoleonFish/base/head/head_fin
+        weight: 1
+      - path: napoleonFish/base/head/jaw
+        weight: 1
+      - path: napoleonFish/base/top_fin_A
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: napoleonFish|napoleon_enter
+      takeName: napoleonFish|napoleon_enter
+      firstFrame: 0
+      lastFrame: 28
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: M_napoleonFish
+        weight: 1
+      - path: napoleonFish
+        weight: 1
+      - path: napoleonFish/base
+        weight: 1
+      - path: napoleonFish/base/back
+        weight: 1
+      - path: napoleonFish/base/back/back_fin
+        weight: 1
+      - path: napoleonFish/base/back/tail_A
+        weight: 1
+      - path: napoleonFish/base/back/tail_A/tail_B
+        weight: 1
+      - path: napoleonFish/base/back/tail_A/tail_B/tail_C
+        weight: 1
+      - path: napoleonFish/base/back/top_fin_B
+        weight: 1
+      - path: napoleonFish/base/body_fin
+        weight: 1
+      - path: napoleonFish/base/head
+        weight: 1
+      - path: napoleonFish/base/head/eye.L
+        weight: 1
+      - path: napoleonFish/base/head/eye.L/m_napoleon_right_eye
+        weight: 1
+      - path: napoleonFish/base/head/eye.R
+        weight: 1
+      - path: napoleonFish/base/head/eye.R/m_napoleon_left_eye
+        weight: 1
+      - path: napoleonFish/base/head/eye_blink.L
+        weight: 1
+      - path: napoleonFish/base/head/eye_blink.L/left_eyelid
+        weight: 1
+      - path: napoleonFish/base/head/eye_blink.R
+        weight: 1
+      - path: napoleonFish/base/head/eye_blink.R/right_eyelid
+        weight: 1
+      - path: napoleonFish/base/head/fin_A.L
+        weight: 1
+      - path: napoleonFish/base/head/fin_A.L/fin_B.L
+        weight: 1
+      - path: napoleonFish/base/head/fin_A.R
+        weight: 1
+      - path: napoleonFish/base/head/fin_A.R/fin_B.R
+        weight: 1
+      - path: napoleonFish/base/head/head_fin
+        weight: 1
+      - path: napoleonFish/base/head/jaw
+        weight: 1
+      - path: napoleonFish/base/top_fin_A
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: napoleonFish|napoleon_idle_swim
+      takeName: napoleonFish|napoleon_idle_swim
+      firstFrame: 0
+      lastFrame: 119
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: M_napoleonFish
+        weight: 1
+      - path: napoleonFish
+        weight: 1
+      - path: napoleonFish/base
+        weight: 1
+      - path: napoleonFish/base/back
+        weight: 1
+      - path: napoleonFish/base/back/back_fin
+        weight: 1
+      - path: napoleonFish/base/back/tail_A
+        weight: 1
+      - path: napoleonFish/base/back/tail_A/tail_B
+        weight: 1
+      - path: napoleonFish/base/back/tail_A/tail_B/tail_C
+        weight: 1
+      - path: napoleonFish/base/back/top_fin_B
+        weight: 1
+      - path: napoleonFish/base/body_fin
+        weight: 1
+      - path: napoleonFish/base/head
+        weight: 1
+      - path: napoleonFish/base/head/eye.L
+        weight: 1
+      - path: napoleonFish/base/head/eye.L/m_napoleon_right_eye
+        weight: 1
+      - path: napoleonFish/base/head/eye.R
+        weight: 1
+      - path: napoleonFish/base/head/eye.R/m_napoleon_left_eye
+        weight: 1
+      - path: napoleonFish/base/head/eye_blink.L
+        weight: 1
+      - path: napoleonFish/base/head/eye_blink.L/left_eyelid
+        weight: 1
+      - path: napoleonFish/base/head/eye_blink.R
+        weight: 1
+      - path: napoleonFish/base/head/eye_blink.R/right_eyelid
+        weight: 1
+      - path: napoleonFish/base/head/fin_A.L
+        weight: 1
+      - path: napoleonFish/base/head/fin_A.L/fin_B.L
+        weight: 1
+      - path: napoleonFish/base/head/fin_A.R
+        weight: 1
+      - path: napoleonFish/base/head/fin_A.R/fin_B.R
+        weight: 1
+      - path: napoleonFish/base/head/head_fin
+        weight: 1
+      - path: napoleonFish/base/head/jaw
+        weight: 1
+      - path: napoleonFish/base/top_fin_A
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: napoleonFish|napoleon_scared_escape
+      takeName: napoleonFish|napoleon_scared_escape
+      firstFrame: 0
+      lastFrame: 12
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: M_napoleonFish
+        weight: 1
+      - path: napoleonFish
+        weight: 1
+      - path: napoleonFish/base
+        weight: 1
+      - path: napoleonFish/base/back
+        weight: 1
+      - path: napoleonFish/base/back/back_fin
+        weight: 1
+      - path: napoleonFish/base/back/tail_A
+        weight: 1
+      - path: napoleonFish/base/back/tail_A/tail_B
+        weight: 1
+      - path: napoleonFish/base/back/tail_A/tail_B/tail_C
+        weight: 1
+      - path: napoleonFish/base/back/top_fin_B
+        weight: 1
+      - path: napoleonFish/base/body_fin
+        weight: 1
+      - path: napoleonFish/base/head
+        weight: 1
+      - path: napoleonFish/base/head/eye.L
+        weight: 1
+      - path: napoleonFish/base/head/eye.L/m_napoleon_right_eye
+        weight: 1
+      - path: napoleonFish/base/head/eye.R
+        weight: 1
+      - path: napoleonFish/base/head/eye.R/m_napoleon_left_eye
+        weight: 1
+      - path: napoleonFish/base/head/eye_blink.L
+        weight: 1
+      - path: napoleonFish/base/head/eye_blink.L/left_eyelid
+        weight: 1
+      - path: napoleonFish/base/head/eye_blink.R
+        weight: 1
+      - path: napoleonFish/base/head/eye_blink.R/right_eyelid
+        weight: 1
+      - path: napoleonFish/base/head/fin_A.L
+        weight: 1
+      - path: napoleonFish/base/head/fin_A.L/fin_B.L
+        weight: 1
+      - path: napoleonFish/base/head/fin_A.R
+        weight: 1
+      - path: napoleonFish/base/head/fin_A.R/fin_B.R
+        weight: 1
+      - path: napoleonFish/base/head/head_fin
+        weight: 1
+      - path: napoleonFish/base/head/jaw
+        weight: 1
+      - path: napoleonFish/base/top_fin_A
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

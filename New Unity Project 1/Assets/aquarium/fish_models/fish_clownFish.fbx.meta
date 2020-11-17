@@ -1,0 +1,466 @@
+fileFormatVersion: 2
+guid: 8d3779f87fd8dfc4ca6790a20b796692
+timeCreated: 1491250614
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: arm.L
+    100002: arm.R
+    100004: back
+    100006: backFin
+    100008: base
+    100010: bottomFin
+    100012: clownFish
+    100014: eye.L
+    100016: eye.R
+    100018: eyelid.L
+    100020: eyelid.R
+    100022: //RootNode
+    100024: head
+    100026: headFin_A
+    100028: headFin_B
+    100030: hips
+    100032: left_eyelid
+    100034: leg.L
+    100036: leg.R
+    100038: m_clown_left_eye
+    100040: m_clown_right_eye
+    100042: M_clownFish_paint
+    100044: right_eyelid
+    100046: tail_A
+    100048: tail_B
+    100050: tail_C
+    400000: arm.L
+    400002: arm.R
+    400004: back
+    400006: backFin
+    400008: base
+    400010: bottomFin
+    400012: clownFish
+    400014: eye.L
+    400016: eye.R
+    400018: eyelid.L
+    400020: eyelid.R
+    400022: //RootNode
+    400024: head
+    400026: headFin_A
+    400028: headFin_B
+    400030: hips
+    400032: left_eyelid
+    400034: leg.L
+    400036: leg.R
+    400038: m_clown_left_eye
+    400040: m_clown_right_eye
+    400042: M_clownFish_paint
+    400044: right_eyelid
+    400046: tail_A
+    400048: tail_B
+    400050: tail_C
+    2300000: left_eyelid
+    2300002: m_clown_left_eye
+    2300004: m_clown_right_eye
+    2300006: right_eyelid
+    3300000: left_eyelid
+    3300002: m_clown_left_eye
+    3300004: m_clown_right_eye
+    3300006: right_eyelid
+    4300000: m_clown_left_eye
+    4300002: right_eyelid
+    4300004: m_clown_right_eye
+    4300006: left_eyelid
+    4300008: M_clownFish_paint
+    7400000: clownFish|clownFish_curious
+    7400002: clownFish|clownFish_enter
+    7400004: clownFish|clownFish_scared
+    7400006: clownFish|clownFish_swim
+    9500000: //RootNode
+    13700000: M_clownFish_paint
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: clownFish|clownFish_curious
+      takeName: clownFish|clownFish_curious
+      firstFrame: 0
+      lastFrame: 79
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: clownFish
+        weight: 1
+      - path: clownFish/base
+        weight: 1
+      - path: clownFish/base/arm.L
+        weight: 1
+      - path: clownFish/base/arm.R
+        weight: 1
+      - path: clownFish/base/back
+        weight: 1
+      - path: clownFish/base/back/backFin
+        weight: 1
+      - path: clownFish/base/back/bottomFin
+        weight: 1
+      - path: clownFish/base/back/headFin_B
+        weight: 1
+      - path: clownFish/base/back/hips
+        weight: 1
+      - path: clownFish/base/back/hips/tail_A
+        weight: 1
+      - path: clownFish/base/back/hips/tail_A/tail_B
+        weight: 1
+      - path: clownFish/base/back/hips/tail_A/tail_B/tail_C
+        weight: 1
+      - path: clownFish/base/back/leg.L
+        weight: 1
+      - path: clownFish/base/back/leg.R
+        weight: 1
+      - path: clownFish/base/head
+        weight: 1
+      - path: clownFish/base/head/eye.L
+        weight: 1
+      - path: clownFish/base/head/eye.L/m_clown_left_eye
+        weight: 1
+      - path: clownFish/base/head/eye.R
+        weight: 1
+      - path: clownFish/base/head/eye.R/m_clown_right_eye
+        weight: 1
+      - path: clownFish/base/head/eyelid.L
+        weight: 1
+      - path: clownFish/base/head/eyelid.L/right_eyelid
+        weight: 1
+      - path: clownFish/base/head/eyelid.R
+        weight: 1
+      - path: clownFish/base/head/eyelid.R/left_eyelid
+        weight: 1
+      - path: clownFish/base/headFin_A
+        weight: 1
+      - path: M_clownFish_paint
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: clownFish|clownFish_enter
+      takeName: clownFish|clownFish_enter
+      firstFrame: 0
+      lastFrame: 49
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: clownFish
+        weight: 1
+      - path: clownFish/base
+        weight: 1
+      - path: clownFish/base/arm.L
+        weight: 1
+      - path: clownFish/base/arm.R
+        weight: 1
+      - path: clownFish/base/back
+        weight: 1
+      - path: clownFish/base/back/backFin
+        weight: 1
+      - path: clownFish/base/back/bottomFin
+        weight: 1
+      - path: clownFish/base/back/headFin_B
+        weight: 1
+      - path: clownFish/base/back/hips
+        weight: 1
+      - path: clownFish/base/back/hips/tail_A
+        weight: 1
+      - path: clownFish/base/back/hips/tail_A/tail_B
+        weight: 1
+      - path: clownFish/base/back/hips/tail_A/tail_B/tail_C
+        weight: 1
+      - path: clownFish/base/back/leg.L
+        weight: 1
+      - path: clownFish/base/back/leg.R
+        weight: 1
+      - path: clownFish/base/head
+        weight: 1
+      - path: clownFish/base/head/eye.L
+        weight: 1
+      - path: clownFish/base/head/eye.L/m_clown_left_eye
+        weight: 1
+      - path: clownFish/base/head/eye.R
+        weight: 1
+      - path: clownFish/base/head/eye.R/m_clown_right_eye
+        weight: 1
+      - path: clownFish/base/head/eyelid.L
+        weight: 1
+      - path: clownFish/base/head/eyelid.L/right_eyelid
+        weight: 1
+      - path: clownFish/base/head/eyelid.R
+        weight: 1
+      - path: clownFish/base/head/eyelid.R/left_eyelid
+        weight: 1
+      - path: clownFish/base/headFin_A
+        weight: 1
+      - path: M_clownFish_paint
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: clownFish|clownFish_scared
+      takeName: clownFish|clownFish_scared
+      firstFrame: 0
+      lastFrame: 4
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: clownFish
+        weight: 1
+      - path: clownFish/base
+        weight: 1
+      - path: clownFish/base/arm.L
+        weight: 1
+      - path: clownFish/base/arm.R
+        weight: 1
+      - path: clownFish/base/back
+        weight: 1
+      - path: clownFish/base/back/backFin
+        weight: 1
+      - path: clownFish/base/back/bottomFin
+        weight: 1
+      - path: clownFish/base/back/headFin_B
+        weight: 1
+      - path: clownFish/base/back/hips
+        weight: 1
+      - path: clownFish/base/back/hips/tail_A
+        weight: 1
+      - path: clownFish/base/back/hips/tail_A/tail_B
+        weight: 1
+      - path: clownFish/base/back/hips/tail_A/tail_B/tail_C
+        weight: 1
+      - path: clownFish/base/back/leg.L
+        weight: 1
+      - path: clownFish/base/back/leg.R
+        weight: 1
+      - path: clownFish/base/head
+        weight: 1
+      - path: clownFish/base/head/eye.L
+        weight: 1
+      - path: clownFish/base/head/eye.L/m_clown_left_eye
+        weight: 1
+      - path: clownFish/base/head/eye.R
+        weight: 1
+      - path: clownFish/base/head/eye.R/m_clown_right_eye
+        weight: 1
+      - path: clownFish/base/head/eyelid.L
+        weight: 1
+      - path: clownFish/base/head/eyelid.L/right_eyelid
+        weight: 1
+      - path: clownFish/base/head/eyelid.R
+        weight: 1
+      - path: clownFish/base/head/eyelid.R/left_eyelid
+        weight: 1
+      - path: clownFish/base/headFin_A
+        weight: 1
+      - path: M_clownFish_paint
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: clownFish|clownFish_swim
+      takeName: clownFish|clownFish_swim
+      firstFrame: 0
+      lastFrame: 34
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: clownFish
+        weight: 1
+      - path: clownFish/base
+        weight: 1
+      - path: clownFish/base/arm.L
+        weight: 1
+      - path: clownFish/base/arm.R
+        weight: 1
+      - path: clownFish/base/back
+        weight: 1
+      - path: clownFish/base/back/backFin
+        weight: 1
+      - path: clownFish/base/back/bottomFin
+        weight: 1
+      - path: clownFish/base/back/headFin_B
+        weight: 1
+      - path: clownFish/base/back/hips
+        weight: 1
+      - path: clownFish/base/back/hips/tail_A
+        weight: 1
+      - path: clownFish/base/back/hips/tail_A/tail_B
+        weight: 1
+      - path: clownFish/base/back/hips/tail_A/tail_B/tail_C
+        weight: 1
+      - path: clownFish/base/back/leg.L
+        weight: 1
+      - path: clownFish/base/back/leg.R
+        weight: 1
+      - path: clownFish/base/head
+        weight: 1
+      - path: clownFish/base/head/eye.L
+        weight: 1
+      - path: clownFish/base/head/eye.L/m_clown_left_eye
+        weight: 1
+      - path: clownFish/base/head/eye.R
+        weight: 1
+      - path: clownFish/base/head/eye.R/m_clown_right_eye
+        weight: 1
+      - path: clownFish/base/head/eyelid.L
+        weight: 1
+      - path: clownFish/base/head/eyelid.L/right_eyelid
+        weight: 1
+      - path: clownFish/base/head/eyelid.R
+        weight: 1
+      - path: clownFish/base/head/eyelid.R/left_eyelid
+        weight: 1
+      - path: clownFish/base/headFin_A
+        weight: 1
+      - path: M_clownFish_paint
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,406 @@
+fileFormatVersion: 2
+guid: 88574be94a064434c9fedd356ead5f18
+timeCreated: 1491250613
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: back
+    100002: backFin
+    100004: base
+    100006: bubble
+    100008: chest
+    100010: eye.L
+    100012: eye.R
+    100014: eyelid.L
+    100016: eyelid.R
+    100018: fin.L
+    100020: fin.R
+    100022: //RootNode
+    100024: left_eyeLid
+    100026: m_puffer_left_eye
+    100028: m_puffer_right_eye
+    100030: M_pufferFish_paint
+    100032: puffer
+    100034: right_eyeLid
+    100036: tail
+    100038: tailBase
+    400000: back
+    400002: backFin
+    400004: base
+    400006: bubble
+    400008: chest
+    400010: eye.L
+    400012: eye.R
+    400014: eyelid.L
+    400016: eyelid.R
+    400018: fin.L
+    400020: fin.R
+    400022: //RootNode
+    400024: left_eyeLid
+    400026: m_puffer_left_eye
+    400028: m_puffer_right_eye
+    400030: M_pufferFish_paint
+    400032: puffer
+    400034: right_eyeLid
+    400036: tail
+    400038: tailBase
+    2300000: left_eyeLid
+    2300002: m_puffer_left_eye
+    2300004: m_puffer_right_eye
+    2300006: right_eyeLid
+    3300000: left_eyeLid
+    3300002: m_puffer_left_eye
+    3300004: m_puffer_right_eye
+    3300006: right_eyeLid
+    4300000: m_puffer_left_eye
+    4300002: right_eyeLid
+    4300004: m_puffer_right_eye
+    4300006: left_eyeLid
+    4300008: M_pufferFish_paint
+    7400000: puffer|puffer_curious
+    7400002: puffer|puffer_enter
+    7400004: puffer|puffer_scared
+    7400006: puffer|puffer_swim
+    9500000: //RootNode
+    13700000: M_pufferFish_paint
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: puffer|puffer_curious
+      takeName: puffer|puffer_curious
+      firstFrame: 0
+      lastFrame: 58
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: M_pufferFish_paint
+        weight: 1
+      - path: puffer
+        weight: 1
+      - path: puffer/base
+        weight: 1
+      - path: puffer/base/bubble
+        weight: 1
+      - path: puffer/base/chest
+        weight: 1
+      - path: puffer/base/chest/back
+        weight: 1
+      - path: puffer/base/chest/back/tailBase
+        weight: 1
+      - path: puffer/base/chest/back/tailBase/tail
+        weight: 1
+      - path: puffer/base/chest/backFin
+        weight: 1
+      - path: puffer/base/chest/fin.L
+        weight: 1
+      - path: puffer/base/chest/fin.R
+        weight: 1
+      - path: puffer/base/eye.L
+        weight: 1
+      - path: puffer/base/eye.L/m_puffer_right_eye
+        weight: 1
+      - path: puffer/base/eye.R
+        weight: 1
+      - path: puffer/base/eye.R/m_puffer_left_eye
+        weight: 1
+      - path: puffer/base/eyelid.L
+        weight: 1
+      - path: puffer/base/eyelid.L/left_eyeLid
+        weight: 1
+      - path: puffer/base/eyelid.R
+        weight: 1
+      - path: puffer/base/eyelid.R/right_eyeLid
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: puffer|puffer_enter
+      takeName: puffer|puffer_enter
+      firstFrame: 0
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: M_pufferFish_paint
+        weight: 1
+      - path: puffer
+        weight: 1
+      - path: puffer/base
+        weight: 1
+      - path: puffer/base/bubble
+        weight: 1
+      - path: puffer/base/chest
+        weight: 1
+      - path: puffer/base/chest/back
+        weight: 1
+      - path: puffer/base/chest/back/tailBase
+        weight: 1
+      - path: puffer/base/chest/back/tailBase/tail
+        weight: 1
+      - path: puffer/base/chest/backFin
+        weight: 1
+      - path: puffer/base/chest/fin.L
+        weight: 1
+      - path: puffer/base/chest/fin.R
+        weight: 1
+      - path: puffer/base/eye.L
+        weight: 1
+      - path: puffer/base/eye.L/m_puffer_right_eye
+        weight: 1
+      - path: puffer/base/eye.R
+        weight: 1
+      - path: puffer/base/eye.R/m_puffer_left_eye
+        weight: 1
+      - path: puffer/base/eyelid.L
+        weight: 1
+      - path: puffer/base/eyelid.L/left_eyeLid
+        weight: 1
+      - path: puffer/base/eyelid.R
+        weight: 1
+      - path: puffer/base/eyelid.R/right_eyeLid
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: puffer|puffer_scared
+      takeName: puffer|puffer_scared
+      firstFrame: 0
+      lastFrame: 49
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: M_pufferFish_paint
+        weight: 1
+      - path: puffer
+        weight: 1
+      - path: puffer/base
+        weight: 1
+      - path: puffer/base/bubble
+        weight: 1
+      - path: puffer/base/chest
+        weight: 1
+      - path: puffer/base/chest/back
+        weight: 1
+      - path: puffer/base/chest/back/tailBase
+        weight: 1
+      - path: puffer/base/chest/back/tailBase/tail
+        weight: 1
+      - path: puffer/base/chest/backFin
+        weight: 1
+      - path: puffer/base/chest/fin.L
+        weight: 1
+      - path: puffer/base/chest/fin.R
+        weight: 1
+      - path: puffer/base/eye.L
+        weight: 1
+      - path: puffer/base/eye.L/m_puffer_right_eye
+        weight: 1
+      - path: puffer/base/eye.R
+        weight: 1
+      - path: puffer/base/eye.R/m_puffer_left_eye
+        weight: 1
+      - path: puffer/base/eyelid.L
+        weight: 1
+      - path: puffer/base/eyelid.L/left_eyeLid
+        weight: 1
+      - path: puffer/base/eyelid.R
+        weight: 1
+      - path: puffer/base/eyelid.R/right_eyeLid
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: puffer|puffer_swim
+      takeName: puffer|puffer_swim
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: M_pufferFish_paint
+        weight: 1
+      - path: puffer
+        weight: 1
+      - path: puffer/base
+        weight: 1
+      - path: puffer/base/bubble
+        weight: 1
+      - path: puffer/base/chest
+        weight: 1
+      - path: puffer/base/chest/back
+        weight: 1
+      - path: puffer/base/chest/back/tailBase
+        weight: 1
+      - path: puffer/base/chest/back/tailBase/tail
+        weight: 1
+      - path: puffer/base/chest/backFin
+        weight: 1
+      - path: puffer/base/chest/fin.L
+        weight: 1
+      - path: puffer/base/chest/fin.R
+        weight: 1
+      - path: puffer/base/eye.L
+        weight: 1
+      - path: puffer/base/eye.L/m_puffer_right_eye
+        weight: 1
+      - path: puffer/base/eye.R
+        weight: 1
+      - path: puffer/base/eye.R/m_puffer_left_eye
+        weight: 1
+      - path: puffer/base/eyelid.L
+        weight: 1
+      - path: puffer/base/eyelid.L/left_eyeLid
+        weight: 1
+      - path: puffer/base/eyelid.R
+        weight: 1
+      - path: puffer/base/eyelid.R/right_eyeLid
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
